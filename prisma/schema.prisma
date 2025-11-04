@@ -1,8 +1,6 @@
 generator client {
   provider = "prisma-client"
   output   = "@/generated/prisma"
-  binaryTargets = ["native", "libquery_engine-rhel-openssl-3.0.x.so.node"]
-  runtime = "vercel-edge"
 }
 
 datasource db {
